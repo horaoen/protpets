@@ -12,8 +12,8 @@ This is our [notion bill](https://water-crest-907.notion.site/7b1ef5cc02a640e18c
    - Make billing details publicly visible in the software
    - Functions expected to be realized in the future
      - pet adoption
-     - Pet Finder
-     - Pet rescue record
+     - pet Finder
+     - pet rescue record
 - Learn and explore the basic ability of development and maintenance of open source software
 - Try to develop applications based on Spring Boot 3 and React Native, and explore a more reasonable and perfect software engineering path.
 
