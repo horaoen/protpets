@@ -5,6 +5,7 @@ A ledger app for pet rescue donations and expenses
 ## Motivation
 My mother rescues homeless small animals in my hometown Huangchuan County (Henan Province). The main sources of funding are donations from well-meaning people, donations after pet adoptions, and advertising expenses from local businesses. We hope that every amount of money here will be open and transparent, so I will do a bill statistics at the end of each month to record and disclose the usual expenses and donations. The recording and statistics process is very boring , and my mother is not good at using those computer software (excel, notion, etc.). I usually record each account in excel, and then summarize it and make it public in notion.
 
+This is our [notion bill](https://water-crest-907.notion.site/7b1ef5cc02a640e18cedaa41bdf12dfd) for the past year.
 ## Goals
 - basic skills
    - Simplify bill entry and statistical operations

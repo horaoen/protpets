@@ -6,8 +6,7 @@ Language : [us](../../README.md) | 🇨🇳
 我的母亲在我的家乡潢川县（河南省）救助着无家可归的小动物们，主要经费来源是一些好心人们的募捐、宠物领养后的捐赠以及当地商家的广告费用。这里的每一笔钱我们希望都做到公开透明，所以我在每个月的月底都会做一次账单统计将平时的花销和捐款记录下来并公开，这其中的记录和统计过程是非常无聊的，而我的母亲又不擅长使用那些计算机软件（excel、notion等）。我通常会在excel中记录每一笔账，然后汇总在notion将其公开。
 
 
-这是我们近一年的(notion账单)[https://water-crest-907.notion.site/7b1ef5cc02a640e18cedaa41bdf12dfd]
-
+这是我们近一年的[notion账单](https://water-crest-907.notion.site/7b1ef5cc02a640e18cedaa41bdf12dfd)
 ## 目标
 - 基本功能
   - 简化账单录入和统计操作
