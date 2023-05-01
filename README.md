@@ -1,6 +1,6 @@
 Language : 🇺🇸 | [🇨🇳](./doc/readme/README.zh-CN.md)
-[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) </br>
 # protpets
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) </br>
 A ledger app for pet rescue donations and expenses
 
 ## Maintainers
