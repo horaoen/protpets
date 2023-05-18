@@ -24,6 +24,13 @@ Language : [us](../../README.md) | 🇨🇳
 
 ## 贡献
 非常乐意您的参与 [打开一个issue](https://github.com/horaoen/protpets/issues/new) 或者提交PR。
+### PR步骤
+1. fork代码
+2. 提交到对应分支上
+   - 文档相关更新提交在doc分支
+   - 后端相关更新提交在backend分支
+   - 前端相关更新提交在frontend分支
+3. 选择正确的分支PR
 
 标准Readme遵循贡献者契约行为准则[Contributor Covenant](http://contributor-covenant.org/version/1/3/0/).
 ### 贡献者
