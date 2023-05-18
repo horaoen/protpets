@@ -26,7 +26,13 @@ I hope there will be fewer and fewer homeless fur kids.
 Feel free to dive in! [Open an issue](https://github.com/horaoen/protpets/issues/new) or submit PRs.
 
 Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
-
+### Pull Request Setps
+1. fork this repo code
+2. commit on the correct branch
+   - backend code commit on the backend branch
+   - frontend code commit on the frontend branch
+   - documentation update commit on the doc branch
+3. choose the right branch to pull request
 ### Contributors
 This project exists thanks to all the people who contribute. 
 <a href="https://github.com/horaoen/protpets/graphs/contributors"><img src="https://opencollective.com/protpets/contributors.svg?width=890&button=false" /></a>
