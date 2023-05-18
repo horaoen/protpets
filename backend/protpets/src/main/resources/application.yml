@@ -1,1 +1,5 @@
-
+server:
+  port: 8080
+springdoc:
+  swagger-ui:
+    path: /doc.html
