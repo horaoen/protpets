@@ -3,3 +3,6 @@ server:
 springdoc:
   swagger-ui:
     path: /doc.html
+spring:
+  profiles:
+    active: dev

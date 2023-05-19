@@ -1,0 +1,12 @@
+spring: 
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/protpets?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&createDatabaseIfNotExist=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  sql:
+    init:
+      continue-on-error: true
+      schema-locations: classpath*:db/schema.sql
+      data-locations: classpath*:db/data.sql
+      mode: always
