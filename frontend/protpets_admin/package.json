@@ -1,6 +1,6 @@
 {
   "private": true,
-  "author": "叶计义 <horaoen@gmail.com>",
+  "author": "horaoen <horaoen@gmail.com>",
   "scripts": {
     "dev": "umi dev",
     "build": "umi build",
