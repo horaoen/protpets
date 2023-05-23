@@ -1,4 +1,4 @@
-package com.horaoen.protpets.domin.user;
+package com.horaoen.protpets.domain.user;
 
 import org.apache.ibatis.annotations.Mapper;
 

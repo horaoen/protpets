@@ -1,4 +1,4 @@
-package com.horaoen.protpets.domin.user;
+package com.horaoen.protpets.domain.user;
 
 import com.horaoen.protpets.infrastructure.database.AuditEntity;
 import io.mybatis.provider.Entity;
@@ -19,4 +19,7 @@ public class User extends AuditEntity {
 
     @Entity.Column("email")
     private String email;
+    
+    @Entity.Column("phone")
+    private String phone;
 }
