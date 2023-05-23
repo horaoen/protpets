@@ -5,5 +5,8 @@ export default defineConfig({
     { path: "/", component: "index" },
     { path: "/docs", component: "docs" },
   ],
-  npmClient: 'npm',
+
+  npmClient: "npm",
+  tailwindcss: {},
+  plugins: ["@umijs/plugins/dist/tailwindcss"],
 });
