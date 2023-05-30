@@ -6,29 +6,27 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.io.Serial;
-
 @Setter
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class BizException extends RuntimeException{
+public class BusinessException extends RuntimeException{
     protected String errorCode;
     protected String errorMsg;
 
-    public BizException(BaseErrorInfoInterface errorInfoInterface) {
+    public BusinessException(BaseErrorInfoInterface errorInfoInterface) {
         super(errorInfoInterface.getResultCode());
         this.errorCode = errorInfoInterface.getResultCode();
         this.errorMsg = errorInfoInterface.getResultMsg();
     }
 
-    public BizException(BaseErrorInfoInterface errorInfoInterface, Throwable cause) {
+    public BusinessException(BaseErrorInfoInterface errorInfoInterface, Throwable cause) {
         super(errorInfoInterface.getResultCode(), cause);
         this.errorCode = errorInfoInterface.getResultCode();
         this.errorMsg = errorInfoInterface.getResultMsg();
     }
 
-    public BizException(String errorMsg) {
+    public BusinessException(String errorMsg) {
         super(errorMsg);
         this.errorMsg = errorMsg;
     }
