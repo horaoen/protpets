@@ -1,6 +1,5 @@
 package com.horaoen.protpets.infrastructure.exception;
 
-
 import com.horaoen.protpets.infrastructure.response.BaseErrorInfoInterface;
 
 public enum BusinessExceptionEnum implements BaseErrorInfoInterface {

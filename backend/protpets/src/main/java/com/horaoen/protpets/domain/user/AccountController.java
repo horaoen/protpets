@@ -19,4 +19,9 @@ public class AccountController {
         this.accountService.register(register);
         return "注册成功";
     }
+    
+    @GetMapping("/test")
+    public String test() {
+        return "test";
+    }
 }
