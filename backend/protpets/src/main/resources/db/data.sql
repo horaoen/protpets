@@ -1,2 +1,0 @@
-INSERT INTO protpets.user (id, nick_name, phone) values ( "0880280e-f934-11ed-859f-0242ac110002", "horaoen", "15137667148");
-INSERT INTO protpets.user (id, nick_name, phone) values ( "08813a9a-f934-11ed-859f-0242ac110002", "fhr", "15137667148");
