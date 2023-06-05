@@ -1,5 +1,6 @@
 package com.horaoen.protpets.infrastructure.aop;
 
+import cn.hutool.json.JSONUtil;
 import com.horaoen.protpets.infrastructure.response.IgnoreResponseAdvice;
 import com.horaoen.protpets.infrastructure.response.UnifiedResponse;
 import org.springframework.core.MethodParameter;
@@ -35,10 +36,11 @@ public class ResponseAdvice implements ResponseBodyAdvice<Object> {
         if (null == o) {
             return UnifiedResponse.success();
         } else if (o instanceof UnifiedResponse) {
-            return (UnifiedResponse) o;
+            return o;
         } else if(o instanceof String){
             //o是message
-            return UnifiedResponse.success(o.toString());
+            UnifiedResponse unifiedResponse = UnifiedResponse.success(o.toString());
+            return JSONUtil.parse(unifiedResponse).toString();
         } else {
             // o是data
             return UnifiedResponse.success(o);
